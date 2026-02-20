@@ -1,0 +1,100 @@
+/* =========================
+   Tablet Responsive CSS
+   481px to 768px
+========================= */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-logo {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    position: static;
+  }
+
+  .nav-address {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .nav-container {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .nav-container-child {
+    flex: 1;
+    margin: 5px 0;
+  }
+
+  /* Panel */
+  .panel {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 5px;
+  }
+
+  .panel-options {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .panel-deals {
+    display: none;
+  }
+
+  /* Hero */
+  .hero-section {
+    height: 300px;
+  }
+
+  .hero-message {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+
+  /* Shop Section */
+  .shop-section {
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 45%;
+    margin-top: 15px;
+  }
+
+  /* Footer */
+  .foot-panel2 {
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .foot-panel2 ul {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .foot-panel3 .logo {
+    position: static;
+  }
+
+}
